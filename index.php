@@ -44,7 +44,6 @@ include('./php/createForm.php')
                                     placeholder="' . $field->placeholder . '" 
                                     '. $required . ' 
                                     '. $readonly . ' 
-                                    required="' . $field->required . '" 
                                     value="' . $field->value . '" 
                                     />';
                                     break;
